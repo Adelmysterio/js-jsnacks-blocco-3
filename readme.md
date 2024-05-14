@@ -15,3 +15,15 @@ aggiungo pesca con .push
 creo un ciclo for che scorra gli elementi all'interno del array 
      pongo la condizione in cui se un elemento del array e' uguale alla stringa cocomero stampa "Trovato! Devo solo preparare il cocktail."
      altrimenti stampa "Oh no, devo uscire a comprare il cocomero!"
+
+<!--! Tail -->
+<!-- Creiamo  un array chiedendo all'utente quanti elementi dovrà contenere e
+generando tanti numeri casuali (compresi nell'intervallo da 1 a 100) per quanti sono gli elementi da inserire.
+Stampiamo poi gli ultimi 5 elementi dell'Array -->
+
+creo un array vuoto 
+chiedo all' utente un numero
+creo un ciclo for in relazione al numero del utente
+      dichiaro una variabile = ad un numero da 1 a 100 usando math random
+      aggiungi quel numero al array .push
+      chiedo alla console gli ultimi 5 numero del array

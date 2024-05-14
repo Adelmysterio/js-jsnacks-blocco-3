@@ -27,3 +27,16 @@ creo un ciclo for in relazione al numero del utente
       dichiaro una variabile = ad un numero da 1 a 100 usando math random
       aggiungi quel numero al array .push
       chiedo alla console gli ultimi 5 numero del array
+
+<!--! Bonus -->
+<!-- Crea due array che hanno un numero di elementi diversi.
+Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro. -->
+
+creo arrayA con x elementi
+creo arrayB con y elementi
+se arrayA.legth>arrayB.lenght allora 
+     ciclo for fino a A.length-B.lenght
+        aggiungi un elemento al arrayB
+se arrayB.legth>arrayA.lenght allora 
+     ciclo for fino a B.length-A.lenght
+        aggiungi un elemento al arrayA

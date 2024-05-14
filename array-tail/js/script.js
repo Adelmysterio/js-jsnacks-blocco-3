@@ -12,9 +12,11 @@ for (let i = 0; i < numeroUtente; i++) {
 
 console.log(randomArray)
 
-if (numeroUtente >= 5) {
+const numeroStampe = Number.parseInt(prompt('Scrivi quanti numeri vuoi stampare'), 10);
+
+if (numeroUtente >= numeroStampe) {
     
-    console.log(randomArray.slice(-5))
+    console.log(randomArray.slice(-(numeroStampe)))
 }
 
 else {

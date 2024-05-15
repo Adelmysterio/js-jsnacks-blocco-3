@@ -8,7 +8,7 @@ for (let i = 0; i < numeroUtente; i++) {
 
     randomArray.push(numeroRandom);
 
-}
+};
 
 console.log(randomArray)
 

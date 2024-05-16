@@ -8,7 +8,7 @@ let somma = 0;
 while (somma < 50) {
     let numbers = Number.parseInt(prompt('Scrivi un numero'), 10);
 
-    if (Number.isNaN(numbers) != true) {
+    if (Number.isNaN(numbers) !== true) {
         arrayNew.push(numbers);
         somma += numbers
     }

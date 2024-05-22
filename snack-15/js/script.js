@@ -9,6 +9,6 @@ const palla = {
 }
 
 
-let pesoPalla = prompt("scrivi il peso della palla")
-palla.peso = pesoPalla
+
+palla.peso = prompt("scrivi il peso della palla")
 console.log(palla)

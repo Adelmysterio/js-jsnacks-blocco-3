@@ -8,7 +8,5 @@ const palla = {
     peso : 10
 }
 
-
-
 palla.peso = prompt("scrivi il peso della palla")
 console.log(palla)

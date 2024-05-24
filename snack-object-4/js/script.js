@@ -56,7 +56,7 @@ const persone = [
     },
 ];
 
-persone.forEach(element => {
+const personeModificate = persone.forEach(element => {
     if (parseInt(element.eta) >= 18) {
         console.log(element.nome, element.cognome, 'Può Guidare')
     }
